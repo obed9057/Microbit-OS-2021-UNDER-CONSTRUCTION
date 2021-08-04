@@ -1,0 +1,79 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="_yFA`6QE~^.L{hZ74dKI">taskbar</variable></variables><block type="pxt-on-start" id="wlTbPLNb@Ij{9+.cv*Yg" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="i_WjP`VWD`9S4oKFS:D1"><field name="LEDS">`
+        # # . # # 
+        # . # . # 
+        # . # . # 
+        # # # # # 
+        # . # . #
+        `</field><next><block type="device_pause" id="`j;{{1|sI1%D722xH;gs"><value name="pause"><shadow type="timePicker" id="E+,.8nBj[Sm69YKw,)2Q"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id=".r*kAVu|rI2@aw4qrPn("><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_pause" id="b#KgyA,%3KIJFQV!67r("><value name="pause"><shadow type="timePicker" id="i.LMcJmd}+=|NzKXGDvG"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="mSOc5ujk)BqGVEuOV};3"><value name="text"><shadow type="text" id="/`GI(=!^Og||JgP/E,9}"><field name="TEXT">Loading..</field></shadow></value><next><block type="device_pause" id="fu6,pOtSjoLx%eRiZ~@."><value name="pause"><shadow type="timePicker" id="|2@3=N8SIEfkZ%I`N7$Z"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="If;_25;R!pU}Y,o7^y]x"><field name="LEDS">`
+        # # # # # 
+        . # # # . 
+        . # . # . 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_pause" id="%.qtJ;Hvv|_`nk45AKRv"><value name="pause"><shadow type="timePicker" id="0!,|oEA?[x.2n9-ru/Dn"><field name="ms">5000</field></shadow></value><next><block type="device_start_melody" id="!o3egM^=[Xw70Q+yYE-."><field name="options">MelodyOptions.ForeverInBackground</field><value name="melody"><block type="device_builtin_melody" id="I)vps*{N=)M+JJ-LgG2H"><field name="melody">Melodies.Nyan</field></block></value><next><block type="variables_set" id="]h~ZNt72@~C48N*$!kp*"><field name="VAR" id="_yFA`6QE~^.L{hZ74dKI">taskbar</field><value name="VALUE"><shadow type="math_number" id="ZQNc@`Ibc$pX:BCner$a"><field name="NUM">8</field></shadow></value><next><block type="device_clear_display" id="Rul/BrB$VQXkqf5OtVr)"><next><block type="device_show_leds" id="qzm-N^ooVu*-V4Dw{i2Z"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        . # # # . 
+        # . # . # 
+        # # # # #
+        `</field><next><block type="device_pause" id="ukEhQO/YdU`C!-ORDYY$"><value name="pause"><shadow type="timePicker" id="UiZEtl0AL)h~oE@KZ4~Z"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="()i3Gsaq:/wxAajT%X(`"><field name="LEDS">`
+        . . . . . 
+        # # # # . 
+        # . . . . 
+        . # # # . 
+        # # . . .
+        `</field><next><block type="device_pause" id="e@pVAk7G$LR*?c9;)4Hz"><value name="pause"><shadow type="timePicker" id="GcGDcd61lh|Y0T9=~O.:"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="}nU76lfEfQe`+JWisI3z"><value name="text"><shadow type="text" id="*#I{AM#N)MBTJ~zI_a~A"><field name="TEXT">MI03 V.0.1</field></shadow></value><next><block type="device_pause" id="o,,vSjH4vtC|DypIl40j"><value name="pause"><shadow type="timePicker" id="Lf^K1;,{vtAm[Op.%w.r"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="s+pVukeWQ%jwBe41oB3c"><value name="text"><shadow type="text" id="k36Q..[F9OK^JgK{;Bvw"><field name="TEXT">Ready To Code</field></shadow></value><next><block type="device_pause" id="gz%b0aM/HTz606Y3{wvI"><value name="pause"><shadow type="timePicker" id="z)K_LzX~=#,v029|v.iM"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="`K520yf#iN$)fpEB^Z$q"><value name="text"><shadow type="text" id="KSmRfOR9E75WlqXHu]my"><field name="TEXT">Welcome system version MI03 V.0.1  has been installed on MICROBIT(D)</field></shadow></value><next><block type="device_pause" id="4=9xnv1#_PKZd5C7i}7~"><value name="pause"><shadow type="timePicker" id=",WgKAG+oXAGOYmk?0zS7"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="A/q$$cMr4.w4^P*Ge!pm"><value name="text"><shadow type="text" id="U}j:!/87@wmG~Z/Dg0B_"><field name="TEXT">Welcome to Microbit OS V.1.0</field></shadow></value><next><block type="device_pause" id="mK;Woi`xlIfF{NxppH*F"><value name="pause"><shadow type="timePicker" id=",rbT[heY$3^_Pil4EI:."><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="oLB0:5Vjj6)Ch]dH|S$*"><field name="LEDS">`
+        # # . . # 
+        # . # # # 
+        # . # . # 
+        # # . . # 
+        # . . . #
+        `</field><next><block type="device_print_message" id="fd@f5a{+o_0kO)iy;`#v"><value name="text"><shadow type="text" id="S/5hsDSU:TUBj[bw?tch"><field name="TEXT">Error 409 The disk you entered has not been found check if it is connected if it is press restart..</field></shadow></value><next><block type="device_pause" id="9Nl?fWPl!;]|=|%ty}ym"><value name="pause"><shadow type="timePicker" id=":%,R#?4dC(fB0|Rvk_VW"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="[^BWW]o7;66c[T8I~/5^"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        # # # # # 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_pause" id="P$Lkv9X@wHIOoliX[+JH"><value name="pause"><shadow type="timePicker" id="faY@(T}Gvi[{eXO..Uhp"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="4D30c:c+.SD%w^cjDyKm"><value name="text"><shadow type="text" id="jv}pP:^aQ0e/h[(B)5!|"><field name="TEXT">Restarting......</field></shadow></value><next><block type="device_clear_display" id="7adsOM_TywU+rYk)N5N-"><next><block type="device_show_leds" id="_oX]DxfrTIA}(,;E?|[*"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="`.1DnANC[-%,|IIis**s"><field name="LEDS">`
+        . . . . # 
+        # # # # # 
+        # # . # # 
+        # # # # # 
+        # . . . .
+        `</field><next><block type="device_print_message" id="lykY=j=a=d,g$R?)}`X,"><value name="text"><shadow type="text" id="m/cuOpmFrXA/i8!q)G#:"><field name="TEXT">Welcome to MI03 to get started press a to continue to skip to desktop press b. to go to home screen press A+B</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="!~=@kUbGdma0NYNEyaPP" x="205" y="0"/><block type="device_button_event" id="ep/C9n*cKFhpkgQ(owkY" x="1118" y="2674"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="|-[18OHck386uIwz}xg1"><field name="LEDS">`
+        # # # # # 
+        # # . # # 
+        # . # . # 
+        # # . # # 
+        # . . . #
+        `</field><next><block type="device_pause" id="h4Abg[DBW|fzjF$qbJ5@"><value name="pause"><shadow type="timePicker" id="@qR.~o5ZM!l5.2)bUXIv"><field name="ms">5000</field></shadow></value><next><block type="device_clear_display" id="z8i_WVeL4_Y^N2|dx:|H"><next><block type="device_print_message" id="+P/;I+xrhB6[b*n2R@~/"><value name="text"><shadow type="text" id="E^-@)0Q?bZgl?zvd)t5Y"><field name="TEXT">Enter a string of code to run .....</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="WO/7q*Zx];S?nq}ETQ~x" x="734" y="2792"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="0hi-6r5[Is41J*Y4nPH8"><field name="LEDS">`
+        # . . . # 
+        # # . # # 
+        # . # . # 
+        # . . . # 
+        # . . . #
+        `</field></block></statement></block><block type="device_button_event" id="o`$JtWpN#7m-2K+1B$Iu" x="535" y="3259"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="cpHQohY8!z;L@Kd_EQaH"><field name="LEDS">`
+        # . . # . 
+        . # . # . 
+        . . # # . 
+        . . . # . 
+        . . . # #
+        `</field><next><block type="device_pause" id="K|y8BB~xbxuY0hSG6#Zc"><value name="pause"><shadow type="timePicker" id="3h]Yq8g7tX,2MK;`*pla"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="UMih~*`zHuA-9VZ$ifbw"><value name="text"><shadow type="text" id=":M*Ad`fBfQ0i0yNQq(03"><field name="TEXT">DESKTOP NOT FOUND SET UP MI03 BEFORE GOING TO DESKTOP. Press a to continue.</field></shadow></value><next><block type="device_pause" id="H%wzKYV,7Pu^WGXI##=v"><value name="pause"><shadow type="timePicker" id="50Bzvkp|p{YrqD1AfWJ1"><field name="ms">5000</field></shadow></value><next><block type="device_pause" id="Jjh2Bm@r3~t2nZA7.4?:"><value name="pause"><shadow type="timePicker" id="[9{tt81,9|0YO%_psgBO"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="bA8d;T~)u,0PpdgX353V"><value name="text"><shadow type="text" id="ZseEiJUB^N+KgWGDt~Z3"><field name="TEXT"> Why are you still here?? is this an error are you trying to enter the prompt ok fine but i warn you this is dangerous</field></shadow></value><next><block type="device_pause" id="XwRgqP`a7jh%fG.P(L(x"><value name="pause"><shadow type="timePicker" id="joEeS0_2=eE8zPKBEeqG"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="H7]U7tV$K#/^1Lf)8)0;"><field name="LEDS">`
+        # . . . . 
+        . # . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="$e~]8X.J],nBRQ(sWEc["><value name="pause"><shadow type="timePicker" id="il[[(wp|oNewYTLY!oRJ"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="Lx_[7%CB#k!8{uqjf]}]"><value name="text"><shadow type="text" id="O)WW2GYTS^]8k_qmCRFZ"><field name="TEXT">Error Update Required Checking for Updates...</field></shadow></value><next><block type="device_pause" id="q|k#}S%)p^*A[bZ5JDzu"><value name="pause"><shadow type="timePicker" id="ExN^unmGfYrKRl8sfY*}"><field name="ms">5000</field></shadow></value><next><block type="device_print_message" id="LLP0t.t/^4GgB4LR^t4Q"><value name="text"><shadow type="text" id="BaAPt~3I:^G~HQ%0@)i4"><field name="TEXT">You cannot use the *Prompt* Because updates are still being worked on by the Full Power Tech Developer Team Please try again later Press A+B To go Home.</field></shadow></value><next><block type="device_clear_display" id="GP^jLM}g:9khW~+1?+s%"/></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>

@@ -101,6 +101,13 @@ input.onButtonPressed(Button.B, function () {
         `)
     basic.pause(5000)
     basic.showString("cracking code absorbing power copying code uploading")
+    basic.showNumber(20)
+    basic.pause(5000)
+    basic.showNumber(90)
+    basic.pause(5000)
+    basic.showNumber(100)
+    basic.pause(5000)
+    basic.showString("UPLOAD COMPLETE DOWNLOADING.... 10%   100% DONE")
 })
 basic.showLeds(`
     # # . # #

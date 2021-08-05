@@ -73,7 +73,6 @@ basic.showLeds(`
     `)
 basic.pause(5000)
 music.startMelody(music.builtInMelody(Melodies.Nyan), MelodyOptions.ForeverInBackground)
-let taskbar = 8
 basic.clearScreen()
 basic.showLeds(`
     # . # . #

@@ -1,11 +1,12 @@
 {
     "name": "Microbit OS V.1.0 UNDER CONSTURCTION",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "Microbit OS V.1.0 UNDER CONSTURCTION": "github:obed9057/microbit-os-2021-under-construction#a7be436e901bf458956b028c6ae26f3f5566420d"
+        "Microbit OS V.1.0 UNDER CONSTURCTION": "github:obed9057/microbit-os-2021-under-construction"
     },
     "files": [
         "main.blocks",

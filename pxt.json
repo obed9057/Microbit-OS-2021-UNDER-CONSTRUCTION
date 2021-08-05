@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "Microbit OS V.1.0 UNDER CONSTURCTION": "github:obed9057/microbit-os-2021-under-construction#a7be436e901bf458956b028c6ae26f3f5566420d"
     },
     "files": [
         "main.blocks",

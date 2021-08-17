@@ -43,7 +43,7 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(5000)
     basic.showString("Error Update Required Checking for Updates...")
     basic.pause(5000)
-    basic.showString("You cannot use the *Prompt* Because updates are still being worked on by the Full Power Tech Developer Team Please try again later Press A+B To go Home.")
+    basic.showString("... Enter your command here..")
     basic.clearScreen()
     basic.showLeds(`
         # . . . #
@@ -108,6 +108,24 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(100)
     basic.pause(5000)
     basic.showString("UPLOAD COMPLETE DOWNLOADING.... 10%   100% DONE")
+    basic.pause(1000)
+    basic.showLeds(`
+        # . . . #
+        # # . # #
+        # . # . #
+        # # # # #
+        # . . . #
+        `)
+    basic.pause(100)
+    basic.showNumber(1.4899)
+    basic.pause(100)
+    basic.showString("MI101.ZYZ IS STILL LOADING FILES PLEASE WAIT")
+    basic.showString("UPDATES AVAILIBLE SOON COME BACK ON AUGUST 20TH 2021")
+    basic.showString("XXX-XXX-XXX")
+    basic.showString("MI101 COPYRIGHT MICROBIT OS COMMUNITY .GITHUB ALL RIGHTS RESERVED")
+    basic.showString("Hello!")
+    basic.showString("MY NAME IS XXPOWNR@#")
+    basic.showString("LETS GET STUFF SET UP")
 })
 basic.showLeds(`
     # # . # #
